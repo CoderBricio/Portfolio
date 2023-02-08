@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+:root{
+--text-color:#00FF00;
+--bg-color: #363636;
+--header-color:	#1C1C1C;
+--text2-color: #FFFFFF;
+--kids-color: #98E1F8;
+--Groudon-color:red;
+}
+
+body{
+    min-height: 100vh;
+    background:  var(--bg-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background: var(--header-color);
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 12%;
+    
+}
+
+
+
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: var(--text-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0 30px;
+    transition: all .50s ease;
+
+}
+
+.navegação a:hover{
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.FotoPerfil{
+    z-index: 2;
+    width: 15%;
+    margin-top: 15%;
+    margin-left: 20%;
+    border: 2px solid;
+    border-radius: 100px;
+    border-color: var(--text-color);
+    
+}
+
+.TextoSobre{
+    z-index: 2;
+    position: absolute;
+    color: var(--text2-color);
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 20%;
+}
+
+.TituloHabilidades{
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+.LogoHtml{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: -25%;
+    width: 15%;
+}
+
+.TituloHtml{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 15%;
+    color: var(--text2-color );
+}
+
+.LogoCss{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: -5%;
+    width: 15%;
+    
+}
+
+.TituloCss{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 35%;
+    color: var(--text2-color );
+
+}
+
+.LogoJavascript{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 15%;
+    width: 15%;
+
+}
+
+.TituloJavascript{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 53%;
+    color: var(--text2-color );
+}
+
+.LogoSql{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 35%;
+    width: 15%;
+
+
+}
+
+.TituloSql{
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 75%;
+    color: var(--text2-color );
+}
+
+.LogoGits{
+    position: absolute;
+    margin-top: 85%;
+    margin-left: -25%;
+    border-radius: 100px;
+    width: 15%;
+
+}
+
+.TituloGits{
+    position: absolute;
+    margin-top: 68%;
+    margin-left: 12%;
+    color: var(--text2-color );
+
+}
+
+.VideoKids{
+    position: absolute;
+    margin-top: 110%;
+    margin-left: -30%;
+    width: 50%;
+    border: 2px solid;
+    border-color: var(--kids-color);
+    
+}
+
+.DescKids{
+    position: absolute;
+    margin-top: 82%;
+    margin-left: 60%;
+    color: var(--text2-color);
+}
+
+.TituloKids{
+    position: absolute;
+    margin-top: 79%;
+    margin-left: 60%;
+    color: var(--kids-color);
+
+}
+
+.VideoHiden{
+    position: absolute;
+    margin-top: 150%;
+    margin-left: -30%;
+    width: 50%;
+    border: 2px solid;
+    border-color: var(--Groudon-color);
+
+}
+
+.TituloHiden{
+    position: absolute;
+    margin-top: 120%;
+    margin-left: 60%;
+    color: var(--Groudon-color);
+}
+
+.DescHiden{
+    position: absolute;
+    margin-top: 123%;
+    margin-left: 60%;
+    color: var(--text2-color);
+
+}
+
+.ImgPort{
+    position: absolute;
+    margin-top: 190%;
+    margin-left: -30%;
+    width: 50%;
+    border: 2px solid;
+    border-color: var(--text-color);
+}
+
+.TituloPort{
+    position: absolute;
+    margin-top: 160%;
+    margin-left: 60%;
+    color: var(--text-color);
+}
+
+.DescPort{
+    position: absolute;
+    margin-top: 163%;
+    margin-left: 60%;
+    color: var(--text2-color);
+}
+
+footer{
+    margin-top: 200%;
+    width: 100%;
+    padding: 50px;
+    background-color: var(--header-color);
+    
+   
+    
+}
+
+a{
+    color: var(--text-color);
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+a:hover{
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+.a1{
+    position: absolute;
+    margin-left: 10%;
+}
+
+.a2{
+    position: absolute;
+    margin-left: 35%;
+}
+
+.a3{
+    position: absolute;
+    color: var(--text-color);
+    margin-left: 60%;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.a3:hover{
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+
+/* Responsividade*/
+
+@media (max-width: 1000px){
+    .TituloKids{
+        margin-top: 77%;
+    }
+
+    .DescKids{
+        font-size: 80%;
+    }
+
+    .TituloHiden{
+        margin-top: 118%;
+    }
+
+    .DescHiden{
+        font-size: 80%;
+    }
+
+    .TituloPort{
+        margin-top: 158%;
+    }
+
+    .DescPort{
+        font-size: 80%;
+    }
+
+    .a3{
+        margin-left: 53%;
+    }
+}
+
+@media (max-width: 800px){
+    .FotoPerfil{
+        width: 20%;
+        margin-top: 20%;
+        
+    }
+
+    .TituloHabilidades{
+        margin-top: 46%;
+    }
+
+    .LogoHtml{
+        margin-top: 100%;
+    }
+
+    .TituloHtml{
+        margin-top: 75%;
+        margin-left: 18%;
+    }
+
+    .LogoCss{
+        margin-top: 100%;
+    }
+
+    .TituloCss{
+        margin-top: 75%;
+        margin-left: 38%;
+    }
+
+    .LogoJavascript{
+        margin-top: 100%;
+    }
+
+    .TituloJavascript{
+        margin-top: 75%;
+        margin-left: 55%;
+    }
+
+    .LogoSql{
+        margin-top: 100%;
+    }
+
+    .TituloSql{
+        margin-top: 75%;
+        margin-left: 78%;
+    }
+
+    .LogoGits{
+        margin-top: 130%;
+    }
+
+    .TituloGits{
+        margin-top: 105%;
+        margin-left: 14%;
+    }
+
+    .VideoKids{
+        margin-top: 160%;
+        margin-left: -13%;
+        
+    }
+
+    .DescKids{
+        font-size: 70%;
+        margin-top: 156%;
+        margin-left: 5%;
+    }
+
+    .TituloKids{
+        margin-top: 150%;
+        margin-left: 43%;
+    }
+
+    .VideoHiden{
+        margin-left: -13%;
+        margin-top: 220%;
+    }
+
+    .TituloHiden{
+        margin-top: 219%;
+        margin-left: 37%;
+    }
+
+    .DescHiden{
+        font-size: 70%;
+        margin-top: 225%;
+        margin-left: 5%;
+
+    }
+
+    .ImgPort{
+        margin-top: 285%;
+        margin-left: -13%;
+
+    }
+
+    .TituloPort{
+        margin-top: 285%;
+        margin-left: 43%;
+    }
+
+    .DescPort{
+        font-size: 70%;
+        margin-top: 290%;
+        margin-left: 5%;
+    }
+
+    footer{
+        margin-top: 300%;
+    }
+
+    .a3{
+        margin-left: 49%;
+    }
+}
+
+@media(max-width:600px){
+
+    .TituloHabilidades{
+        margin-top: 46%;
+    }
+
+    .TituloHtml{
+        font-size: 20px;
+    }
+
+    .TituloCss{
+    font-size: 20px;
+    }
+
+    .TituloJavascript{
+        font-size: 20px;
+    }
+
+    .TituloSql{
+        font-size: 20px;
+    }
+
+    .TituloGits{
+        font-size: 20px;
+    }
+
+    footer{
+        margin-top: 310%;
+    }
+
+    a{
+        font-size: 75%;
+    }
+
+    .a3{
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 500px){
+    .FotoPerfil{
+        width: 18%;
+        margin-top: 30%;
+    }
+
+    header{
+        padding: 28px 5%;
+    }
+
+    .TextoSobre{
+        font-size: 10px;
+        margin-top: 29% ;
+    }
+
+    .TituloHabilidades{
+        font-size: 17px;
+        margin-left: 40%;
+    }
+
+    .LogoHtml{
+        margin-top: 110%;
+    }
+
+    .TituloHtml{
+        font-size: 10px;
+        margin-left: 17%;
+        margin-top:75%;
+    }
+
+    .LogoCss{
+        margin-top: 110%;
+    }
+
+    .TituloCss{
+        font-size: 10px;
+        margin-top: 75%;
+        margin-left: 37%;
+    }
+
+    .LogoJavascript{
+        margin-top: 110%;
+    }
+
+    .TituloJavascript{
+        font-size: 10px;
+        margin-top: 75%;
+    }
+
+    .LogoSql{
+        margin-top: 110%;
+    }
+
+    .TituloSql{
+        font-size: 10px;
+        margin-top: 75%;
+    }
+
+    .LogoGits{
+        margin-top: 135%;
+    }
+
+    .TituloGits{
+        font-size: 10px;
+        margin-top: 100%;
+        margin-left: 14%;
+    }
+
+    .VideoKids{
+        width: 90%;
+        margin-left: -33%;
+        margin-top: 170%;
+    }
+
+    .TituloKids{
+        margin-top: 180%;
+        margin-left: 38%;
+    }
+
+    .DescKids{
+        margin-top: 190%;
+    }
+
+    .VideoHiden{
+        width: 90%;
+        margin-left: -33%;
+        margin-top: 280%;
+
+    }
+
+    .TituloHiden{
+        margin-top: 290%;
+        margin-left: 29%;
+
+    }
+
+    .DescHiden{
+        margin-top: 300%;
+    }
+
+    .ImgPort{
+        width: 90%;
+        margin-left: -33%;
+        margin-top: 380%;
+
+    }
+
+    .TituloPort{
+        margin-top: 390%;
+        margin-left: 38%;
+    }
+
+    .DescPort{
+        margin-top: 400%;
+    }
+
+    footer{
+        margin-top: 450%;
+    }
+
+    .a3{
+        font-size: 10px;
+    }
+
+    
+}
+
+@media (max-width: 400px){
+    .FotoPerfil{
+        width: 18%;
+        margin-top: 30%;
+    }
+
+    header{
+        padding: 28px 0.1px;
+    }
+
+    .navegação a:hover{
+    font-weight: 1000;
+    font-size: 1.1rem;
+   }
+
+   .TituloHabilidades{
+    margin-left: 40%;
+   }
+
+   .TituloGits{
+    margin-left: 12%;
+   }
+
+}
+
+/* Responsividade para  dispositivos "Samsung Galaxy S8+"*/
+
+@media (max-width: 370px){
+    .navegação a{
+        font-size: 0.8rem;
+        
+    }
+
+}
+
